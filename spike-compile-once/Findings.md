@@ -39,7 +39,19 @@ https://github.com/spring-projects/spring-petclinic
 
 ### Agent compiled with JVM 1.8
 - Ran with JVM 1.8 *OK*
-- Ran with JVM 11
+
+
+``` bash
+/c/code/spring-petclinic (main)
+$ java --version
+openjdk 11.0.10 2021-01-19 LTS
+OpenJDK Runtime Environment Corretto-11.0.10.9.1 (build 11.0.10+9-LTS)
+OpenJDK 64-Bit Server VM Corretto-11.0.10.9.1 (build 11.0.10+9-LTS, mixed mode)
+```
+dir *.* tmp >> [agent_jdk1_8_ran_jdk_11.txt](results/agent_jdk1_8_ran_jdk_11.tx)
+
+
+* Ran with JVM 11  *OK*
 
 ## What do we need to build? What is involved?
 
