@@ -31,7 +31,15 @@ Add these scripts to the system environment variables:
 
 Out of the scope of the guide you should also check that the maven installation is properly configured to work only with the JAVA_HOME variable.
 
+The project used to test will be petclinic sample from spring-boot samples:
+
+https://github.com/spring-projects/spring-petclinic
+
 ## Findings
+
+### Agent compiled with JVM 1.8
+- Ran with JVM 1.8 *OK*
+- Ran with JVM 11
 
 ## What do we need to build? What is involved?
 
