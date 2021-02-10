@@ -61,7 +61,7 @@ dir *.* tmp >> [agent_jdk1_8_ran_jdk_11.txt](results/agent_jdk1_8_ran_jdk_11.txt
 
 ## What do we need to build? What is involved?
 
-## Implement Dynamic Templates
+
 
 
 ## Notes
