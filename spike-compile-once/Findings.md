@@ -56,6 +56,15 @@ $ java --version
 openjdk 11.0.10 2021-01-19 LTS
 OpenJDK Runtime Environment Corretto-11.0.10.9.1 (build 11.0.10+9-LTS)
 OpenJDK 64-Bit Server VM Corretto-11.0.10.9.1 (build 11.0.10+9-LTS, mixed mode)
+
+/c/code/spring-petclinic (main)
+$ mvn -v
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\maven
+Java version: 15.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-15.0.1
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
 ```
 dir *.* tmp >> [agent_jdk1_8_ran_jdk_11.txt](results/agent_jdk1_8_ran_jdk_11.txt)
 
