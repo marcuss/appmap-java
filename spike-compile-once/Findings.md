@@ -79,6 +79,53 @@ Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
 dir *.* tmp >> [agent_jdk1_8_ran_jdk_15.txt](results/agent_jdk1_8_ran_jdk_15.txt)
 
 
+
+### Agent compiled with JVM 11
+
+* Ran with JVM 1.8 *OK*
+
+
+* Ran with JVM 11 *OK*
+``` bash
+/c/code/spring-petclinic (main)
+$ java --version
+openjdk 11.0.10 2021-01-19 LTS
+OpenJDK Runtime Environment Corretto-11.0.10.9.1 (build 11.0.10+9-LTS)
+OpenJDK 64-Bit Server VM Corretto-11.0.10.9.1 (build 11.0.10+9-LTS, mixed mode)
+
+/c/code/spring-petclinic (main)
+$ mvn -version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\maven
+Java version: 11.0.10, vendor: Amazon.com Inc., runtime: C:\Program Files\Amazon Corretto\jdk11.0.10_9
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+``` 
+
+dir *.* tmp >> [agent_jdk11_ran_jdk_11.txt](results/agent_jdk11_ran_jdk_11.txt)
+
+
+* Ran with JVM 15 *OK*
+
+``` bash
+ /c/code/spring-petclinic (main)
+$ java -version
+java version "15.0.1" 2020-10-20
+Java(TM) SE Runtime Environment (build 15.0.1+9-18)
+Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
+
+/c/code/spring-petclinic (main)
+$ mvn -version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\maven
+Java version: 15.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-15.0.1
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+```
+
+dir *.* tmp >> [agent_jdk11_ran_jdk_15.txt](results/agent_jdk11_ran_jdk_15.txt)
+
 ## What do we need to build? What is involved?
 
 
