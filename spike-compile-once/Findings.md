@@ -82,7 +82,24 @@ dir *.* tmp >> [agent_jdk1_8_ran_jdk_15.txt](results/agent_jdk1_8_ran_jdk_15.txt
 
 ### Agent compiled with JVM 11
 
-* Ran with JVM 1.8 *OK*
+* Ran with JVM 1.8 *EXPECTED ERROR*
+``` bash
+/c/code/spring-petclinic (main)
+$ java -version
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment Corretto-8.282.08.1 (build 1.8.0_282-b08)
+OpenJDK 64-Bit Server VM Corretto-8.282.08.1 (build 25.282-b08, mixed mode)
+
+/c/code/spring-petclinic (main)
+$ mvn -version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\maven
+Java version: 1.8.0_282, vendor: Amazon.com Inc., runtime: C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+```
+
+[EXPECTED ERROR agent_jdk11_ran_jdk1_8-ERROR.txt](results/agent_jdk11_ran_jdk1_8-ERROR.txt)
 
 
 * Ran with JVM 11 *OK*
